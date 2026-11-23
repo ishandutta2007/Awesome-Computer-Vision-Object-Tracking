@@ -44,65 +44,18 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Roboflow](https://roboflow.com)**  
-
-  End-to-end cloud computer vision platform offering automated video/image labeling, dataset versioning, hosted model training, and edge/cloud inference APIs.
-
-
-
-- **[Encord](https://encord.com)**  
-
-  AI-assisted data engine and multimodal annotation platform built specifically for complex video object tracking, segmentation masks, and foundation model evaluation.
-
-
-
-- **[Labelbox](https://labelbox.com)**  
-
-  Enterprise data-centric AI platform featuring automated video object tracking interpolation, model-assisted labeling, and human-in-the-loop quality workflows.
-
-
-
-- **[V7 Labs (V7 Darwin)](https://v7labs.com)**  
-
-  Cloud computer vision training data platform offering SAM-powered auto-segmentation, temporal frame-to-frame object tracking, and dataset management.
-
-
-
-- **[SuperAnnotate](https://superannotate.com)**  
-
-  Enterprise annotation and AI data platform supporting pixel-accurate video object tracking, polygon interpolation, and custom ML pipeline integrations.
-
-
-
-- **[Dataloop](https://dataloop.ai)**  
-
-  Cloud data management and automated video annotation environment uniting multi-sensor labeling, active learning loops, and deployment pipelines.
-
-
-
-- **[Landing AI (LandingLens)](https://landing.ai)**  
-
-  Visual inspection and industrial computer vision platform enabling rapid defect detection, object tracking, and edge deployment for manufacturing teams.
-
-
-
-- **[Scale AI (Nucleus & Rapid)](https://scale.com)**  
-
-  Enterprise AI data infrastructure platform providing high-volume 2D/3D video tracking annotation, sensor fusion labeling, and dataset curation.
-
-
-
-- **[Chooch](https://chooch.com)**  
-
-  Enterprise edge-to-cloud computer vision platform delivering real-time video analytics, object detection, and automated anomaly alerts for CCTV and industrial streams.
-
-
-
-- **[Clarifai](https://clarifai.com)**  
-
-  Full-stack cloud AI platform offering visual recognition, object tracking workflows, automated data labeling, and multi-cloud model orchestration.
+| Platform | Valuation / Revenue Scale | Pricing (Starting Tier) | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Scale AI (Nucleus & Rapid)](https://scale.com)** | **$29B** valuation (~$1B ARR, raised $15.9B) | **$0.05 / labeling unit** (Scale Rapid pay-as-you-go) | **Free Forever plan**: 200 free labeling units/month (Rapid); Scale Nucleus free tier for individual & academic research | Enterprise AI data infrastructure platform providing high-volume 2D/3D video tracking annotation, sensor fusion labeling, and dataset curation. |
+| **[Encord](https://encord.com)** | **~$1B** valuation (raised $159M total) | **$500/month** (Starter tier entry base, custom annual quote) | **14-day free trial** upon sales request/demo with full multimodal sandbox access | AI-assisted data engine and multimodal annotation platform built specifically for complex video object tracking, segmentation masks, and foundation model evaluation. |
+| **[Labelbox](https://labelbox.com)** | **~$1B** valuation (raised $189M total) | **$0.10 / LBU** (Starter tier pay-as-you-go) | **Free Forever plan**: 500 free Labelbox Units (LBUs)/month, up to 30 users, 1,500 API req/min, 50 projects | Enterprise data-centric AI platform featuring automated video object tracking interpolation, model-assisted labeling, and human-in-the-loop quality workflows. |
+| **[Clarifai](https://clarifai.com)** | **$775M** peak valuation / ~$16M ARR (raised $101M) | **$30/month** (Essential Plan) | **Free Forever plan**: 1,000 inputs/month, 1,000 operations/month, 1 application, unlimited concepts | Full-stack cloud AI platform offering visual recognition, object tracking workflows, automated data labeling, and multi-cloud model orchestration. |
+| **[SuperAnnotate](https://superannotate.com)** | **~$200M** valuation (raised $68.5M total) | **$29/user/month** (Starter base, custom annual contract) | **Free Forever plan**: Up to 5 users, 1,000 Orchestrate compute hours, baseline image/video annotation items | Enterprise annotation and AI data platform supporting pixel-accurate video object tracking, polygon interpolation, and custom ML pipeline integrations. |
+| **[V7 Labs (V7 Darwin)](https://v7labs.com)** | **~$200M** valuation (raised $36M total) | **$499/month** (Starter tier, billed annually; or £150/user/mo) | **14-day free trial** upon guided sales demo; no permanent free tier | Cloud computer vision training data platform offering SAM-powered auto-segmentation, temporal frame-to-frame object tracking, and dataset management. |
+| **[Roboflow](https://roboflow.com)** | **~$175M** valuation / ~$12M ARR (raised $63M) | **$39/month** (Core Plan credit packs) | **Free Forever plan**: 10 recurring credits/month (~30 training jobs or ~80k cloud inferences), unlimited seats, free self-hosted inference | End-to-end cloud computer vision platform offering automated video/image labeling, dataset versioning, hosted model training, and edge/cloud inference APIs. |
+| **[Dataloop](https://dataloop.ai)** | **$120M** acquisition valuation (Dell) / raised $50M | **$500/month** (Starter consumption base, AWS Marketplace / annual quote) | **14-day free trial** upon requested demo/PoC onboarding; no permanent free tier | Cloud data management and automated video annotation environment uniting multi-sensor labeling, active learning loops, and deployment pipelines. |
+| **[Landing AI (LandingLens)](https://landing.ai)** | **~$100M** valuation (raised $57M Series A) | **$250/month** (Team tier; or enterprise credit packages) | **Free Forever plan**: 1,000 credits/month (non-rollover), up to 3 seats, 1 active deployable project, non-commercial use | Visual inspection and industrial computer vision platform enabling rapid defect detection, object tracking, and edge deployment for manufacturing teams. |
+| **[Chooch](https://chooch.com)** | **~$80M** valuation / ~$10M ARR (raised $43M) | **$500/month** (Base edge stream licensing starting bracket) | **14-day free trial** / proof-of-concept pilot provided on request; ImageChat sandbox free tier | Enterprise edge-to-cloud computer vision platform delivering real-time video analytics, object detection, and automated anomaly alerts for CCTV and industrial streams. |
 
 
 
