@@ -1,0 +1,212 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070913" />
+      <stop offset="50%" stop-color="#0d1124" />
+      <stop offset="100%" stop-color="#080a16" />
+    </linearGradient>
+    <linearGradient id="primaryTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="40%" stop-color="#818cf8" />
+      <stop offset="80%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#f43f5e" />
+    </linearGradient>
+    <linearGradient id="accentCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#4facfe" />
+    </linearGradient>
+    <linearGradient id="radarSweep" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Glowing Filters -->
+    <filter id="glowCyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="glowPurple" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.6" />
+      <circle cx="40" cy="40" r="1" fill="#38bdf8" fill-opacity="0.3" />
+    </pattern>
+
+    <style>
+      @keyframes scanline {
+        0% { transform: translateY(0); opacity: 0.15; }
+        50% { transform: translateY(420px); opacity: 0.8; }
+        100% { transform: translateY(0); opacity: 0.15; }
+      }
+      @keyframes pulseOrb {
+        0%, 100% { transform: scale(1); opacity: 0.25; }
+        50% { transform: scale(1.18); opacity: 0.45; }
+      }
+      @keyframes dashMove {
+        to { stroke-dashoffset: -100; }
+      }
+      @keyframes trackBox {
+        0%, 100% { transform: translate(0, 0); }
+        33% { transform: translate(12px, -8px); }
+        66% { transform: translate(-8px, 10px); }
+      }
+      @keyframes blink {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.3; }
+      }
+      .scanner-bar {
+        animation: scanline 8s ease-in-out infinite;
+      }
+      .orb-pulse-1 {
+        transform-origin: 180px 140px;
+        animation: pulseOrb 7s ease-in-out infinite;
+      }
+      .orb-pulse-2 {
+        transform-origin: 1040px 280px;
+        animation: pulseOrb 9s ease-in-out infinite reverse;
+      }
+      .tracking-path {
+        stroke-dasharray: 6 6;
+        animation: dashMove 4s linear infinite;
+      }
+      .animated-box-1 {
+        animation: trackBox 6s ease-in-out infinite;
+      }
+      .animated-box-2 {
+        animation: trackBox 7s ease-in-out infinite reverse;
+      }
+      .live-dot {
+        animation: blink 1.8s ease-in-out infinite;
+      }
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        font-weight: 800;
+        letter-spacing: -0.5px;
+      }
+      .pill-text {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+      }
+    </style>
+  </defs>
+
+  <!-- Deep Canvas Background -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" />
+
+  <!-- Grid Pattern Overlay -->
+  <rect width="1200" height="420" fill="url(#grid)" />
+
+  <!-- Background Glowing Orbs (Kept behind foreground content) -->
+  <g opacity="0.35">
+    <circle cx="180" cy="140" r="160" fill="#38bdf8" filter="url(#glowCyan)" class="orb-pulse-1" />
+    <circle cx="1040" cy="280" r="180" fill="#a855f7" filter="url(#glowPurple)" class="orb-pulse-2" />
+  </g>
+
+  <!-- Dynamic Animated Scanline in Background -->
+  <g class="scanner-bar" pointer-events="none">
+    <line x1="0" y1="0" x2="1200" y2="0" stroke="url(#accentCyan)" stroke-width="1.5" stroke-opacity="0.6" filter="url(#glowCyan)" />
+  </g>
+
+  <!-- Decorative Object Tracking Bounding Boxes (Left and Right Corners) -->
+  <!-- Left Tracker UI Element -->
+  <g class="animated-box-1" opacity="0.75">
+    <!-- Bounding Box -->
+    <rect x="70" y="80" width="130" height="110" rx="4" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="4 3" />
+    <!-- Corner Reticles -->
+    <path d="M 66 92 L 66 76 L 82 76" fill="none" stroke="#00f2fe" stroke-width="2.5" />
+    <path d="M 188 76 L 204 76 L 204 92" fill="none" stroke="#00f2fe" stroke-width="2.5" />
+    <path d="M 66 178 L 66 194 L 82 194" fill="none" stroke="#00f2fe" stroke-width="2.5" />
+    <path d="M 188 194 L 204 194 L 204 178" fill="none" stroke="#00f2fe" stroke-width="2.5" />
+    <!-- Label Pill -->
+    <rect x="70" y="62" width="95" height="18" rx="3" fill="#0284c7" fill-opacity="0.8" />
+    <text x="76" y="75" fill="#ffffff" class="pill-text" font-size="10">Target #01: 99.4%</text>
+    <!-- Trajectory tail -->
+    <path d="M 135 135 Q 160 170 120 220 T 170 270" fill="none" stroke="#38bdf8" stroke-width="1.5" stroke-opacity="0.5" class="tracking-path" />
+  </g>
+
+  <!-- Right Tracker UI Element -->
+  <g class="animated-box-2" opacity="0.75">
+    <!-- Bounding Box -->
+    <rect x="1000" y="210" width="130" height="110" rx="4" fill="none" stroke="#c084fc" stroke-width="1.5" stroke-dasharray="4 3" />
+    <!-- Corner Reticles -->
+    <path d="M 996 222 L 996 206 L 1012 206" fill="none" stroke="#c084fc" stroke-width="2.5" />
+    <path d="M 1118 206 L 1134 206 L 1134 222" fill="none" stroke="#c084fc" stroke-width="2.5" />
+    <path d="M 996 308 L 996 324 L 1012 324" fill="none" stroke="#c084fc" stroke-width="2.5" />
+    <path d="M 1118 324 L 1134 324 L 1134 308" fill="none" stroke="#c084fc" stroke-width="2.5" />
+    <!-- Label Pill -->
+    <rect x="1000" y="192" width="105" height="18" rx="3" fill="#9333ea" fill-opacity="0.8" />
+    <text x="1006" y="205" fill="#ffffff" class="pill-text" font-size="10">MOT-Track: SAM 2</text>
+    <!-- Trajectory tail -->
+    <path d="M 1065 265 Q 1020 220 1060 170 T 1000 120" fill="none" stroke="#c084fc" stroke-width="1.5" stroke-opacity="0.5" class="tracking-path" />
+  </g>
+
+  <!-- Central Foreground Content (Unobscured, crisp contrast) -->
+  <g>
+    <!-- Top Category Badge Pill -->
+    <g transform="translate(450, 48)">
+      <rect x="0" y="0" width="300" height="32" rx="16" fill="#1e293b" fill-opacity="0.85" stroke="#334155" stroke-width="1.2" />
+      <circle cx="20" cy="16" r="4.5" fill="#10b981" class="live-dot" />
+      <text x="34" y="21" fill="#94a3b8" class="pill-text">CURATED ECOSYSTEM &bull; 2026 EDITION</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="145" text-anchor="middle" class="title-text" font-size="44" fill="url(#primaryTextGrad)" filter="url(#glowCyan)">
+      Computer Vision &amp; Object Tracking
+    </text>
+
+    <!-- Subtitle / Tagline -->
+    <text x="600" y="195" text-anchor="middle" class="title-text" font-size="20" font-weight="500" fill="#f8fafc">
+      Real-Time Multi-Object Tracking &bull; YOLO &bull; SAM 2 &bull; Edge Vision AI &bull; Video Analytics
+    </text>
+
+    <!-- Description subtext -->
+    <text x="600" y="235" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#94a3b8">
+      The authoritative index of enterprise SaaS platforms and state-of-the-art open-source GitHub frameworks.
+    </text>
+
+    <!-- Feature Tech Pills at Bottom -->
+    <g transform="translate(190, 280)">
+      <!-- Pill 1: ByteTrack / BoT-SORT -->
+      <g transform="translate(0, 0)">
+        <rect width="180" height="36" rx="8" fill="#0f172a" fill-opacity="0.9" stroke="#38bdf8" stroke-width="1.2" />
+        <text x="90" y="23" text-anchor="middle" fill="#38bdf8" class="pill-text">🎯 ByteTrack &amp; BoT-SORT</text>
+      </g>
+      <!-- Pill 2: Ultralytics YOLO -->
+      <g transform="translate(195, 0)">
+        <rect width="180" height="36" rx="8" fill="#0f172a" fill-opacity="0.9" stroke="#818cf8" stroke-width="1.2" />
+        <text x="90" y="23" text-anchor="middle" fill="#818cf8" class="pill-text">⚡ Ultralytics YOLO</text>
+      </g>
+      <!-- Pill 3: SAM 2 Video Masking -->
+      <g transform="translate(390, 0)">
+        <rect width="210" height="36" rx="8" fill="#0f172a" fill-opacity="0.9" stroke="#c084fc" stroke-width="1.2" />
+        <text x="105" y="23" text-anchor="middle" fill="#c084fc" class="pill-text">🔮 SAM 2 Video Tracking</text>
+      </g>
+      <!-- Pill 4: CVAT / Annotation -->
+      <g transform="translate(615, 0)">
+        <rect width="205" height="36" rx="8" fill="#0f172a" fill-opacity="0.9" stroke="#34d399" stroke-width="1.2" />
+        <text x="102" y="23" text-anchor="middle" fill="#34d399" class="pill-text">🏷️ CVAT &amp; Video Labeling</text>
+      </g>
+    </g>
+
+    <!-- Bottom Status Bar -->
+    <g transform="translate(420, 360)">
+      <line x1="0" y1="0" x2="360" y2="0" stroke="#334155" stroke-width="1" />
+      <circle cx="180" cy="0" r="3" fill="#64748b" />
+      <text x="180" y="22" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" fill="#64748b">
+        Open-Source GitHub Benchmarks &bull; Enterprise Pricing &bull; Continuous Updates
+      </text>
+    </g>
+  </g>
+</svg>
