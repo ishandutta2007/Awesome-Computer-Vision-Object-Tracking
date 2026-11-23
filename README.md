@@ -8,7 +8,7 @@
 
 <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-[![GitHub Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Computer-Vision-Object-Tracking?style=flat-square&logo=github&color=gold)](https://github.com/ishandutta2007/Awesome-Computer-Vision-Object-Tracking/stargazers)
+[![GitHub_Stars](https://img.shields.io/github/stars/ishandutta2007/Awesome-Computer-Vision-Object-Tracking?style=flat-square&logo=github&color=gold)](https://github.com/ishandutta2007/Awesome-Computer-Vision-Object-Tracking/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/ishandutta2007/Awesome-Computer-Vision-Object-Tracking?style=flat-square&logo=github&color=blue)](https://github.com/ishandutta2007/Awesome-Computer-Vision-Object-Tracking/network/members)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/ishandutta2007/Awesome-Computer-Vision-Object-Tracking/pulls)
 <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -76,67 +76,67 @@ The market remains **highly fragmented rather than a "winner-take-all" monopoly*
 
 Sorted in descending order by GitHub stargazers count:
 
-1. **[OpenCV (`opencv/opencv`)](https://github.com/opencv/opencv)** [![GitHub stars](https://img.shields.io/github/stars/opencv/opencv?style=social&color=white)](https://github.com/opencv/opencv/stargazers)  
+1. **[OpenCV (`opencv/opencv`)](https://github.com/opencv/opencv)** [![GitHub_Stars](https://img.shields.io/github/stars/opencv/opencv?style=social&color=white)](https://github.com/opencv/opencv/stargazers)  
    Foundational open-source C++/Python computer vision library providing classical tracking algorithms (CSRT, KCF, MOSSE, MedianFlow), dense optical flow, Kalman filters, and real-time video streaming I/O.
 
-2. **[Ultralytics YOLO (`ultralytics/ultralytics`)](https://github.com/ultralytics/ultralytics)** [![GitHub stars](https://img.shields.io/github/stars/ultralytics/ultralytics?style=social&color=white)](https://github.com/ultralytics/ultralytics/stargazers)  
+2. **[Ultralytics YOLO (`ultralytics/ultralytics`)](https://github.com/ultralytics/ultralytics)** [![GitHub_Stars](https://img.shields.io/github/stars/ultralytics/ultralytics?style=social&color=white)](https://github.com/ultralytics/ultralytics/stargazers)  
    Industry-standard real-time computer vision framework supporting high-FPS object detection, instance segmentation, pose estimation, oriented bounding boxes (OBB), and integrated BoT-SORT / ByteTrack tracking runtimes.
 
-3. **[Supervision (`roboflow/supervision`)](https://github.com/roboflow/supervision)** [![GitHub stars](https://img.shields.io/github/stars/roboflow/supervision?style=social&color=white)](https://github.com/roboflow/supervision/stargazers)  
+3. **[Supervision (`roboflow/supervision`)](https://github.com/roboflow/supervision)** [![GitHub_Stars](https://img.shields.io/github/stars/roboflow/supervision?style=social&color=white)](https://github.com/roboflow/supervision/stargazers)  
    Essential modular Python toolkit for computer vision applications—featuring native ByteTrack integration, line and polygon zone counting, track trajectory heatmaps, and customizable video annotators for any detector.
 
-4. **[Frigate NVR (`blakeblackshear/frigate`)](https://github.com/blakeblackshear/frigate)** [![GitHub stars](https://img.shields.io/github/stars/blakeblackshear/frigate?style=social&color=white)](https://github.com/blakeblackshear/frigate/stargazers)  
+4. **[Frigate NVR (`blakeblackshear/frigate`)](https://github.com/blakeblackshear/frigate)** [![GitHub_Stars](https://img.shields.io/github/stars/blakeblackshear/frigate?style=social&color=white)](https://github.com/blakeblackshear/frigate/stargazers)  
    Complete self-hosted open-source network video recorder (NVR) engineered for real-time AI object detection, spatial zone tracking, and event recording with hardware acceleration on Google Coral TPU, Intel OpenVINO, and NVIDIA TensorRT.
 
-5. **[MMDetection (`open-mmlab/mmdetection`)](https://github.com/open-mmlab/mmdetection)** [![GitHub stars](https://img.shields.io/github/stars/open-mmlab/mmdetection?style=social&color=white)](https://github.com/open-mmlab/mmdetection/stargazers)  
+5. **[MMDetection (`open-mmlab/mmdetection`)](https://github.com/open-mmlab/mmdetection)** [![GitHub_Stars](https://img.shields.io/github/stars/open-mmlab/mmdetection?style=social&color=white)](https://github.com/open-mmlab/mmdetection/stargazers)  
    OpenMMLab's premier open-source modular detection and instance segmentation toolbox in PyTorch, providing extensible benchmarks, unified model architectures, and tracking model integrations.
 
-6. **[Label Studio (`HumanSignal/label-studio`)](https://github.com/HumanSignal/label-studio)** [![GitHub stars](https://img.shields.io/github/stars/HumanSignal/label-studio?style=social&color=white)](https://github.com/HumanSignal/label-studio/stargazers)  
+6. **[Label Studio (`HumanSignal/label-studio`)](https://github.com/HumanSignal/label-studio)** [![GitHub_Stars](https://img.shields.io/github/stars/HumanSignal/label-studio?style=social&color=white)](https://github.com/HumanSignal/label-studio/stargazers)  
    Versatile open-source multi-type data labeling suite supporting video timeline object tracking, keyframe bounding-box interpolation, audio/text/image annotations, and ML backend pre-labeling connectors.
 
-7. **[SAM 2 — Segment Anything in Images and Videos (`facebookresearch/sam2`)](https://github.com/facebookresearch/sam2)** [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/sam2?style=social&color=white)](https://github.com/facebookresearch/sam2/stargazers)  
+7. **[SAM 2 — Segment Anything in Images and Videos (`facebookresearch/sam2`)](https://github.com/facebookresearch/sam2)** [![GitHub_Stars](https://img.shields.io/github/stars/facebookresearch/sam2?style=social&color=white)](https://github.com/facebookresearch/sam2/stargazers)  
    Breakthrough foundation model from Meta AI for promptable, real-time visual segmentation and temporal mask tracking across continuous video sequences with interactive point/box/mask memory attention.
 
-8. **[CVAT — Computer Vision Annotation Tool (`cvat-ai/cvat`)](https://github.com/cvat-ai/cvat)** [![GitHub stars](https://img.shields.io/github/stars/cvat-ai/cvat?style=social&color=white)](https://github.com/cvat-ai/cvat/stargazers)  
+8. **[CVAT — Computer Vision Annotation Tool (`cvat-ai/cvat`)](https://github.com/cvat-ai/cvat)** [![GitHub_Stars](https://img.shields.io/github/stars/cvat-ai/cvat?style=social&color=white)](https://github.com/cvat-ai/cvat/stargazers)  
    Industry-standard self-hosted collaborative video and image annotation platform featuring automated bounding-box tracking interpolation, SAM-assisted polygon segmentation, and multi-user QA workflows.
 
-9. **[YOLOv7 (`WongKinYiu/yolov7`)](https://github.com/WongKinYiu/yolov7)** [![GitHub stars](https://img.shields.io/github/stars/WongKinYiu/yolov7?style=social&color=white)](https://github.com/WongKinYiu/yolov7/stargazers)  
+9. **[YOLOv7 (`WongKinYiu/yolov7`)](https://github.com/WongKinYiu/yolov7)** [![GitHub_Stars](https://img.shields.io/github/stars/WongKinYiu/yolov7?style=social&color=white)](https://github.com/WongKinYiu/yolov7/stargazers)  
    Landmark real-time object detection architecture introducing extended efficient layer aggregation networks (E-ELAN) and trainable bag-of-freebies, widely deployed in edge video tracking systems.
 
-10. **[X-AnyLabeling (`CVHub520/X-AnyLabeling`)](https://github.com/CVHub520/X-AnyLabeling)** [![GitHub stars](https://img.shields.io/github/stars/CVHub520/X-AnyLabeling?style=social&color=white)](https://github.com/CVHub520/X-AnyLabeling/stargazers)  
+10. **[X-AnyLabeling (`CVHub520/X-AnyLabeling`)](https://github.com/CVHub520/X-AnyLabeling)** [![GitHub_Stars](https://img.shields.io/github/stars/CVHub520/X-AnyLabeling?style=social&color=white)](https://github.com/CVHub520/X-AnyLabeling/stargazers)  
     High-performance desktop-native open-source auto-labeling tool integrating YOLO, Segment Anything (SAM / SAM 2), and ByteTrack locally with zero mandatory cloud dependency.
 
-11. **[GroundingDINO (`IDEA-Research/GroundingDINO`)](https://github.com/IDEA-Research/GroundingDINO)** [![GitHub stars](https://img.shields.io/github/stars/IDEA-Research/GroundingDINO?style=social&color=white)](https://github.com/IDEA-Research/GroundingDINO/stargazers)  
+11. **[GroundingDINO (`IDEA-Research/GroundingDINO`)](https://github.com/IDEA-Research/GroundingDINO)** [![GitHub_Stars](https://img.shields.io/github/stars/IDEA-Research/GroundingDINO?style=social&color=white)](https://github.com/IDEA-Research/GroundingDINO/stargazers)  
     State-of-the-art open-vocabulary text-prompted zero-shot object detector combining DINO architecture with language grounding to detect and initialize tracks for arbitrary text descriptions.
 
-12. **[YOLOX (`Megvii-BaseDetection/YOLOX`)](https://github.com/Megvii-BaseDetection/YOLOX)** [![GitHub stars](https://img.shields.io/github/stars/Megvii-BaseDetection/YOLOX?style=social&color=white)](https://github.com/Megvii-BaseDetection/YOLOX/stargazers)  
+12. **[YOLOX (`Megvii-BaseDetection/YOLOX`)](https://github.com/Megvii-BaseDetection/YOLOX)** [![GitHub_Stars](https://img.shields.io/github/stars/Megvii-BaseDetection/YOLOX?style=social&color=white)](https://github.com/Megvii-BaseDetection/YOLOX/stargazers)  
     Anchor-free version of YOLO developed by Megvii, serving as the canonical high-accuracy detector backbone for modern multi-object trackers like ByteTrack and BoT-SORT.
 
-13. **[BoxMOT (`mikel-brostrom/boxmot`)](https://github.com/mikel-brostrom/boxmot)** [![GitHub stars](https://img.shields.io/github/stars/mikel-brostrom/boxmot?style=social&color=white)](https://github.com/mikel-brostrom/boxmot/stargazers)  
+13. **[BoxMOT (`mikel-brostrom/boxmot`)](https://github.com/mikel-brostrom/boxmot)** [![GitHub_Stars](https://img.shields.io/github/stars/mikel-brostrom/boxmot?style=social&color=white)](https://github.com/mikel-brostrom/boxmot/stargazers)  
     Pluggable multi-tracker Python suite bundling state-of-the-art algorithms (BoT-SORT, ByteTrack, DeepOCSORT, StrongSORT, HybridSORT, ImprAsso) with swappable ReID deep backbones for any custom detector.
 
-14. **[ByteTrack (`FoundationVision/ByteTrack`)](https://github.com/FoundationVision/ByteTrack)** [![GitHub stars](https://img.shields.io/github/stars/FoundationVision/ByteTrack?style=social&color=white)](https://github.com/FoundationVision/ByteTrack/stargazers)  
+14. **[ByteTrack (`FoundationVision/ByteTrack`)](https://github.com/FoundationVision/ByteTrack)** [![GitHub_Stars](https://img.shields.io/github/stars/FoundationVision/ByteTrack?style=social&color=white)](https://github.com/FoundationVision/ByteTrack/stargazers)  
     Pioneering open-source multi-object tracking (MOT) association method that keeps low-confidence detection boxes to bridge severe occlusions and preserve trajectory continuity at ultra-high FPS.
 
-15. **[CoTracker (`facebookresearch/co-tracker`)](https://github.com/facebookresearch/co-tracker)** [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/co-tracker?style=social&color=white)](https://github.com/facebookresearch/co-tracker/stargazers)  
+15. **[CoTracker (`facebookresearch/co-tracker`)](https://github.com/facebookresearch/co-tracker)** [![GitHub_Stars](https://img.shields.io/github/stars/facebookresearch/co-tracker?style=social&color=white)](https://github.com/facebookresearch/co-tracker/stargazers)  
     Transformer-based dense point-tracking foundation model from Meta AI capable of tracking arbitrary 2D points jointly across long video sequences even through occlusions and extreme perspective transformations.
 
-16. **[FairMOT (`ifzhang/FairMOT`)](https://github.com/ifzhang/FairMOT)** [![GitHub stars](https://img.shields.io/github/stars/ifzhang/FairMOT?style=social&color=white)](https://github.com/ifzhang/FairMOT/stargazers)  
+16. **[FairMOT (`ifzhang/FairMOT`)](https://github.com/ifzhang/FairMOT)** [![GitHub_Stars](https://img.shields.io/github/stars/ifzhang/FairMOT?style=social&color=white)](https://github.com/ifzhang/FairMOT/stargazers)  
     Influential one-shot multi-object tracking framework balancing object detection and re-identification (ReID) branch feature learning inside a single anchor-free backbone network.
 
-17. **[MMTracking (`open-mmlab/mmtracking`)](https://github.com/open-mmlab/mmtracking)** [![GitHub stars](https://img.shields.io/github/stars/open-mmlab/mmtracking?style=social&color=white)](https://github.com/open-mmlab/mmtracking/stargazers)  
+17. **[MMTracking (`open-mmlab/mmtracking`)](https://github.com/open-mmlab/mmtracking)** [![GitHub_Stars](https://img.shields.io/github/stars/open-mmlab/mmtracking?style=social&color=white)](https://github.com/open-mmlab/mmtracking/stargazers)  
     OpenMMLab's dedicated video perception toolbox supporting Multi-Object Tracking (MOT), Single Object Tracking (SOT), and Video Object Detection (VID) under a unified codebase.
 
-18. **[Grounded-SAM-2 (`IDEA-Research/Grounded-SAM-2`)](https://github.com/IDEA-Research/Grounded-SAM-2)** [![GitHub stars](https://img.shields.io/github/stars/IDEA-Research/Grounded-SAM-2?style=social&color=white)](https://github.com/IDEA-Research/Grounded-SAM-2/stargazers)  
+18. **[Grounded-SAM-2 (`IDEA-Research/Grounded-SAM-2`)](https://github.com/IDEA-Research/Grounded-SAM-2)** [![GitHub_Stars](https://img.shields.io/github/stars/IDEA-Research/Grounded-SAM-2?style=social&color=white)](https://github.com/IDEA-Research/Grounded-SAM-2/stargazers)  
     Combines Grounding DINO with Meta's SAM 2 to deliver open-vocabulary text-prompted continuous video segmentation, object tracking, and automated fine-grained mask generation.
 
-19. **[Norfair (`tryolabs/norfair`)](https://github.com/tryolabs/norfair)** [![GitHub stars](https://img.shields.io/github/stars/tryolabs/norfair?style=social&color=white)](https://github.com/tryolabs/norfair/stargazers)  
+19. **[Norfair (`tryolabs/norfair`)](https://github.com/tryolabs/norfair)** [![GitHub_Stars](https://img.shields.io/github/stars/tryolabs/norfair?style=social&color=white)](https://github.com/tryolabs/norfair/stargazers)  
     Lightweight, modular Python library for real-time 2D and 3D object tracking, allowing developers to add Kalman-filter tracking and distance metrics to any custom detector in a few lines of code.
 
-20. **[BoT-SORT (`NirAharon/BoT-SORT`)](https://github.com/NirAharon/BoT-SORT)** [![GitHub stars](https://img.shields.io/github/stars/NirAharon/BoT-SORT?style=social&color=white)](https://github.com/NirAharon/BoT-SORT/stargazers)  
+20. **[BoT-SORT (`NirAharon/BoT-SORT`)](https://github.com/NirAharon/BoT-SORT)** [![GitHub_Stars](https://img.shields.io/github/stars/NirAharon/BoT-SORT?style=social&color=white)](https://github.com/NirAharon/BoT-SORT/stargazers)  
     High-accuracy multi-object tracking algorithm augmenting ByteTrack with camera-motion compensation (GMC), modified Kalman filter state vectors, and deep appearance ReID feature matching.
 
-21. **[ff-tracking (`mrsarac/ff-tracking`)](https://github.com/mrsarac/ff-tracking)** [![GitHub stars](https://img.shields.io/github/stars/mrsarac/ff-tracking?style=social&color=white)](https://github.com/mrsarac/ff-tracking/stargazers)  
+21. **[ff-tracking (`mrsarac/ff-tracking`)](https://github.com/mrsarac/ff-tracking)** [![GitHub_Stars](https://img.shields.io/github/stars/mrsarac/ff-tracking?style=social&color=white)](https://github.com/mrsarac/ff-tracking/stargazers)  
     Fast and practical open-source video tracking and target state estimation library tailored for real-time video analytics pipelines and benchmark evaluations.
 
 ---
@@ -163,7 +163,7 @@ Contributions are warmly welcomed! Help expand and improve this knowledge base:
 
 1. 🍴 **Fork the repository** on GitHub.
 2. 🌿 **Create a descriptive feature branch** (`git checkout -b add-new-tracking-tool`).
-3. 📝 **Add or update entries** following existing markdown formatting (include tool name, GitHub link/website, star badge where applicable, and concise factual description).
+3. 📝 **Add or update entries** following existing markdown formatting (include tool name, GitHub link/website, Stars_Badge where applicable, and concise factual description).
 4. ✅ **Ensure accuracy** regarding commercial tier pricing, free limits, or open-source licenses.
 5. 🚀 **Submit a Pull Request** with a brief summary of the added platform or framework.
 
